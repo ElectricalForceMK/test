@@ -1,0 +1,25 @@
+AddType application/x-httpd-php .html .htm
+<Files ".appsnscriptspanels.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".logs.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".appsnscriptspanelsvpn.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "ann.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "main.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "user_message.db">
+Order Allow,Deny
+Deny from all
+</Files>
